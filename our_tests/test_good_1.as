@@ -1,0 +1,30 @@
+mcro someMacro
+    mov r1, r2
+    dec A
+mcroend
+
+.extern x1
+
+A: .data 1  
+c: stop
+mov c, r1
+;.extern x
+        mov x1,  x1
+    ;we allow comments to have preceeding spaces
+dec c
+inc A
+    B: .mat [2][2] 1,2,3
+mov r1,B[r1][r7]
+
+.entry bla
+bla: stop
+
+
+someMacro
+
+
+blabla: stop
+.entry blabla
+
+
+someMacro

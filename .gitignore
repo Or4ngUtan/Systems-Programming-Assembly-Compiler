@@ -1,0 +1,10 @@
+/assembler
+/assembler.exe
+/build/
+/*.am
+/*.ob
+/*.ent
+/*.ext
+/our_tests/*.png
+.DS_Store
+Thumbs.db

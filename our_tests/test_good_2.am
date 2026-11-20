@@ -1,0 +1,13 @@
+
+;we allow empty macros
+
+
+    dec r1
+    jmp BLABLA
+    dec r1
+    jmp BLABLA
+
+;labels can be defined anywhere, not only in the end
+MAT: .string "blabla"
+.extern BLABLA
+mov     BLABLA  ,   MAT[r1][r5]

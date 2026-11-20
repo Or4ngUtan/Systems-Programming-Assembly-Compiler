@@ -1,0 +1,16 @@
+;the input can be very messy but we're ok
+
+        BLABLA:   bne X
+
+X:stop
+jmp     BLABLA[r3][r4]
+
+
+    ;blabla
+    ;blabla
+
+.entry BLABLA
+
+.extern HI
+
+inc HI

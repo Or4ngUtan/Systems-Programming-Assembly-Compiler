@@ -1,0 +1,18 @@
+.entry LENGTH
+.extern ru 
+
+piza: mov r1,r2
+
+.extern lol
+
+
+MAIN:   mov M1[r2][r7],LENGTH
+        add r2,STR
+        mov lol, ru
+        mov lol, ru
+
+LOOP:   jmp END
+        prn #-5
+
+        ;dasda
+
